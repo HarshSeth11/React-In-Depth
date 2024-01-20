@@ -16,8 +16,8 @@ const MyElement = (
 
 ReactDOM.createRoot(document.getElementById('root'))
 .render(
-  // <App />
-  // < MyApp />
-  // MyApp()
-  MyElement
+  // <App />     /* It Works */
+  // < MyApp />  /* It Works */
+  // MyApp()     /* It Works */
+  // MyElement   /* It Works */
 )
