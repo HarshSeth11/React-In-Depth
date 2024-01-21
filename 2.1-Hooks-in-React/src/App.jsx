@@ -34,6 +34,11 @@ function App() {
     */
 
     /* Note : Console log will give the same value as of count at the time of change, as the jobs are first batched and then executed later on this all happens due to performance optimization and Fibre Which is one of the algorithm of the React is responsible for this. */
+
+
+    /* Simple Code as per the assignment */
+    count < 20 ? setCount(count + 1) : 0;
+
   }
 
   const decrementCount = () => {
