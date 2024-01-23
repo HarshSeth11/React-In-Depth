@@ -1,0 +1,92 @@
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.content-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: medium;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+}
+
+.button-visible {
+  opacity: 1;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animation-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
+hr {
+  border: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+input[type="range"] {
+  width: 92%;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  padding: 10px;
+}
+
+label {
+  font-weight: normal;
+}
+
+.lenght {
+  font-size: large;
+  position: relative;
+  top: -5px;
+}
+
+/* Add more styles as needed */
+
