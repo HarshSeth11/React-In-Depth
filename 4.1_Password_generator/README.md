@@ -1,4 +1,4 @@
-# ------------------------------------------ useCallback ------------------------------------------------------------
+# ---------------------- useCallback -------------------------------
 
 - In the example I provided earlier, there is no child component. The `Counter` component is a simple example that demonstrates how to use **useCallback** to memoize a function definition between re-renders. 
 
@@ -33,7 +33,7 @@ We pass the `handleClick` function down to both child components as a prop. By u
 
 
 
-# --------------------------------------------- useEffect -----------------------------------------------------------
+# ---------------------------- useEffect ----------------------------
 
 In React, `useEffect` is a hook that allows you to perform side effects in your functional components. Side effects can include data fetching, subscriptions, manual DOM manipulations, and more. `useEffect` is used to manage these side effects in a way that aligns with React's component lifecycle.
 
@@ -111,7 +111,7 @@ Additionally, if you omit the cleanup function and the effect function returns a
 
 
 
-# ------------------------------- useRef -----------------------------------------------------------
+# --------------------- useRef -----------------------------
 
 
 In React, the `useRef` hook is used to create mutable objects that persist across renders without causing the component to re-render when the reference changes. It provides a way to access and interact with a DOM element or to persist values between renders without triggering a re-render.
